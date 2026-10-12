@@ -1,0 +1,22 @@
+DETECTION TEST RESULTS
+
+Test 1: 6 matching entries
+Expected: Alert
+Actual: Alert
+Result: PASS
+
+Test 2: 2 matching entries
+Expected: No  Alert
+Actual: No  Alert
+Result: PASS
+
+Test 3: 0 matching entries
+Expected: No  Alert
+Actual: No  Alert
+Result: PASS
+
+Test 4: Missing log file
+Expected: Error message
+Actual: Error message
+Result: PASS
+ 

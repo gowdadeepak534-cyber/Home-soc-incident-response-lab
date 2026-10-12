@@ -1,0 +1,19 @@
+MINI SOC LAB -DAY 4
+AUTHENTICATION DETECTION FINDINGS
+ 
+Detection script: scripts/detect_auth_failures.sh
+Log source: logs/auth_day1.txt
+Matching authentication events: 12
+Alert threshold: 5
+Alert: Repeated authentication failures detected
+Severity: MEDIUM
+Status: Investigation required
+
+Initial assessment: The detection script identified authentication-related log entries above the configured threshold.
+
+Investigation requirement: Review event timestamps, usernames, source information and surrounding log entries before deciding whether the activity is 
+suspicious.
+
+Limitations: A high event count alone does not prove an external attack. Some matches may be routine system activity or duplicate event types.
+ 
+END OF FINDINGS  

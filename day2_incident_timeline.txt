@@ -1,0 +1,19 @@
+MINI SOC - INCIDENT TIMELINE
+
+DATE: 8 October 2026
+system: Ubuntu VirtualBox lab
+Account involved: deepak
+
+Observed activity:
+1. Around 11:37 am: Multiple password-check and graphical authentication failure entries
+2. Around 7:55-7:56 pm: Furthur password-check and graphical authentication failure entries.
+3. Around 8:11 pm: A sudo authentication failure was recorded for the local account.
+
+Detection: The authentication detection script reported 12 matching log entries against a threshold of 5.
+
+Initial assessment: The threshold was exceeded, so investigation was required.
+
+Limitations: Matching log entries are not necessarily unique authentication attempts.
+             The available evidence does not establish external attacker involvement.
+
+Status: Timeline drafted. Event context and final classification still require review. 

@@ -1,0 +1,13 @@
+MINI SOC - NETWORK VISIBILITY FINDINGS
+Tool: tcpdump
+Interface: enp0s3
+Interface IPv4 address: 10.0.2.15
+Capture file: evidence/network_capture.pcap
+Packets captured: 20
+Packets dropped by kernel: 0
+
+Obervation: A short packet capture was completed successfully on the Ubuntu lab network interface.
+
+Assessment: The capture confirms that basic network traffic collection works in the lab environment.
+
+Limitation: This short capture alone does not establish whether malicious network activity occurred.

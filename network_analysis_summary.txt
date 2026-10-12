@@ -1,0 +1,18 @@
+NETWORK TRAFFIC ANALYSIS
+
+Tool: tcpdump
+Evidence: Local lab packet capture
+
+Observations:
+ 
+* DNS related traffic was observed.
+* TCP connection attempts were observed.
+* ICMP destination unreachable messages were observed.
+
+Assessment:
+           Some network destinations were unreachable during the capture.
+           This alone does not indicate an attack.
+
+Limitation:
+          The capture represents a short sample of lab traffic. No malicious
+          activity was confirmed.

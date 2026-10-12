@@ -1,0 +1,65 @@
+HOME SOC AND INCIDENT RESPONSE LAB
+
+1. ENVIRONMENT
+      Ubuntu Linux running in VirtualBox
+
+2. AUTHENTICATION DETECTION
+          
+System Authentication logs
+          |
+          v
+Bash  Detection script
+          |
+          v
+Count matching log entries
+          |
+          v
+Compare count with threshold
+          |
+          v
+Alert or not alert
+          |
+          v
+Investigation and severity assessment
+          |
+          v
+Timeline evidence and response notes
+          |
+          v
+Generated incident report
+          
+          
+3. NETWORK INVESTIGATION
+     Ubuntu network interface
+          |
+          v
+tcpdump packet capture
+          |
+          v
+ Saved PCAP evidence
+          |
+          v
+Documented Network observations 
+
+4. VALIDATION
+ * Above threshold test
+ * below threshold test
+ * Unrelated message test
+ * Missing log file test
+ * Bash syntax checks
+
+5. Tools:
+ * Ubuntu linux
+ * Bash
+ * Authentication logs
+ * grep
+ * tcpdump
+ * Nano text editor
+
+Purpose:
+Demonstrate basic security monitoring,alert detection, evidence collection, incident investigation, and reporting.
+
+Limitation:
+ This is a small educational lab, not an enterprise security monitoring system.
+ Matching log entries do not necessrily represent unique login attempts or confirm an attack.
+ Network capture provides limited visibility and does not prove malicious network activity.

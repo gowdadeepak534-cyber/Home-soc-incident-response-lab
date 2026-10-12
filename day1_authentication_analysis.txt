@@ -1,0 +1,18 @@
+MINI SOC LAB - AUTHENTICATION LOG ANALYSIS
+Objective:
+Review Ubuntu authentication logs and identity events requiring inventigation.
+Evidence:
+evidence/authentication_events.txt
+Observations:
+1. Failed password checks were recorded for the local user deepak.
+2,Authentication failure messages were present. 
+3. Root session open and close events were recorded.
+4. CRON and graphical login manager session events were present.
+Initial assessment:
+the failed authentication events require contextual investigation.
+Root session events must be correlated with the commands that initiated them.
+CRON and graphical login events are not inherently malicious.
+Limitations:
+These logs alone don't establish that an external attacker attempted access.The source and context of each event must be reviewed before assigning a severity.
+Status:
+Initial review completed.Futher investigation pending.

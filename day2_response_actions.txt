@@ -1,0 +1,20 @@
+MINI SOC - INCIDENT RESPONSE
+
+Alert: Repeated authentication failures
+Severity: Medium
+Status: Unconfirmed
+
+Actions:
+1. Reviewed authentication logs
+2. Recorded the event timeline.
+3. Classified the alert for further investigation.
+4. No containment action taken because malicious activity has not been confirmed.
+
+Recommendations:
+* Verify whether the failed attempts were expected.
+* Review successful logins and related sessions.
+* Investigate further if suspicious activity appears.
+
+Outcome:
+Evidence documented;
+investigation remains open.

@@ -1,0 +1,9 @@
+MINI SOC - MITRE ATTACK MAPPING 
+
+Observed behaviour: Repeated authentication failures.
+
+Potencial technique: T1110 - Brute Force
+
+Assessment: The failed authentication records may resemble brute force behaviour, but the evidence does not confirm a brute force attack.
+
+Status: Potential mapping only; further investigation is required. 

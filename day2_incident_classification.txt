@@ -1,0 +1,16 @@
+MINI SOC - INCIDENT CLASSIFICATION
+
+Alert: Repeated authentication failures
+
+Severity: Medium
+Matching log entries: 12
+Alert threshold: 5
+Affected account: deepak
+
+Assessment:
+Repeated authentication failure were detected. Malicious activity is not confirmed.
+
+Status: Further investigation required.
+
+Recommendation:
+Review login activity and verify whether the failed attempts were expected

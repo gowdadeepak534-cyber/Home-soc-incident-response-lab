@@ -1,0 +1,36 @@
+MINI SOC - DETECTION TEST RESULTS
+
+Rule threshold: 5 matching entries
+
+Test 1: Six authentication failure entries
+Expected: Alert
+Observed: Alert
+Result: PASS
+
+Test 2: Two authentication failure entries
+Expected: No  Alert
+Observed: No Alert
+Result: PASS
+
+Test 3: Three unrelated system messages
+Expected: No Alert
+Observed: No Alert
+Result: PASS
+
+Test 4: Missing log file
+Expected: Clear error, no alert
+Observed: Clear error displayed 
+Result: PASS
+
+
+Limitations:
+These tests use small, controlled sample files.
+They validate basic threshold behaviour but do not prove detection accuracy on all real world logs.
+Matching entries are not necessarily unique attempts.
+
+Additional threshold test:
+Matching entries: 6
+Configured threshold: 7
+Expected: No alert
+Observed: No alert
+Result: PASS
